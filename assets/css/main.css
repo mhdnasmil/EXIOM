@@ -773,29 +773,6 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
 
-.hero .btn-watch-video {
-  font-size: 16px;
-  transition: 0.5s;
-  margin-left: 25px;
-  color: var(--default-color);
-  font-weight: 600;
-}
-
-.hero .btn-watch-video i {
-  color: var(--contrast-color);
-  font-size: 32px;
-  transition: 0.3s;
-  line-height: 0;
-  margin-right: 8px;
-}
-
-.hero .btn-watch-video:hover {
-  color: var(--accent-color);
-}
-
-.hero .btn-watch-video:hover i {
-  color: color-mix(in srgb, var(--accent-color), transparent 15%);
-}
 
 .hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -813,21 +790,10 @@ section,
     margin-bottom: 30px;
   }
 
-  .hero .btn-get-started,
-  .hero .btn-watch-video {
-    font-size: 13px;
-  }
+
 }
 
-@keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
 
-  100% {
-    transform: translateY(-10px);
-  }
-}
 
 /*--------------------------------------------------------------
 # Clients Section
