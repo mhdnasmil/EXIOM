@@ -82,14 +82,44 @@ h6 {
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  left: 20px; /* Changed from right to left */
   z-index: 1000;
+  width: 60px; /* Default size */
+  height: 60px;
   transition: transform 0.3s ease-in-out;
 }
 
+.whatsapp-float img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect */
 .whatsapp-float:hover {
   transform: scale(1.2);
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .whatsapp-float {
+      width: 50px; /* Smaller size for mobile */
+      height: 50px;
+      bottom: 15px;
+      left: 15px; /* Adjusted for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .whatsapp-float {
+      width: 45px; /* Even smaller for very small screens */
+      height: 45px;
+      bottom: 10px;
+      left: 10px; /* Adjusted for very small screens */
+  }
+}
+
 
 
 /*--------------------------------------------------------------
