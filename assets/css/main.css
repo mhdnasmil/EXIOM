@@ -33,10 +33,10 @@
 }
 
 .dark-background {
-  --background-color: #37517e;
+  --background-color: #000000;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #4668a2;
+  --surface-color: #000000;
   --contrast-color: #ffffff;
 }
 
@@ -73,6 +73,22 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
+}
+
+/*--------------------------------------------------------------
+# WhatsApp Float Button
+--------------------------------------------------------------*/
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.2);
 }
 
 
