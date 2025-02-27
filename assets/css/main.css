@@ -1084,7 +1084,7 @@ section,
   margin: 0 30px 0 32px;
   transition: 0.3s;
   cursor: pointer;
-  color: var(--accent-color);
+  color: black;
 }
 
 .faq-2 .faq-container .faq-item h3 span {
