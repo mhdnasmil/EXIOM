@@ -74,6 +74,9 @@ h6 {
   font-family: var(--heading-font);
 }
 
+img{
+  border-radius: 20px;
+}
 
 /*--------------------------------------------------------------
 # WhatsApp Float Button
@@ -867,6 +870,7 @@ section,
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   height: 100%;
+  border-radius: 20px;
 }
 
 .services .service-item .icon {
@@ -1071,6 +1075,7 @@ section,
   padding: 20px;
   margin-bottom: 20px;
   overflow: hidden;
+  border-radius: 20px;
 }
 
 .faq-2 .faq-container .faq-item:last-child {
