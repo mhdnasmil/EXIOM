@@ -1190,6 +1190,7 @@ section,
   border-bottom: 3px solid var(--accent-color);
   padding: 30px;
   height: 100%;
+  border-radius: 20px;
 }
 
 @media (max-width: 575px) {
